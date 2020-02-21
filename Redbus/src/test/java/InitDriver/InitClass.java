@@ -16,6 +16,7 @@ public class InitClass {
 	@BeforeClass
 	public void BeforeClass() {
 		System.out.println("Launch Webdriver");
+		System.out.println("Done changes in file");
 		ChromeOptions opt = new ChromeOptions(); 			
 		opt.addArguments("--disable-notifications");
 		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
