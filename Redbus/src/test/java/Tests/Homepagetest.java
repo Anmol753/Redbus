@@ -19,5 +19,11 @@ public class Homepagetest extends InitClass {
 		Assert.assertEquals(homepage.getCurrentURL(),"https://www.redbus.in/");
 	}
 	
+	@Test
+	public void BookTicket() {
+		homepage.enterinFromField();
+		
+	}
+	
 
 }

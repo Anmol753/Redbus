@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-16T07:26:18Z" name="Default suite" finished-at="2020-02-16T07:27:12Z" duration-ms="53873">
+  <suite started-at="2020-02-18T16:21:00Z" name="Default suite" finished-at="2020-02-18T16:22:33Z" duration-ms="92771">
     <groups>
     </groups>
-    <test started-at="2020-02-16T07:26:18Z" name="Default test" finished-at="2020-02-16T07:27:12Z" duration-ms="53873">
+    <test started-at="2020-02-18T16:21:00Z" name="Default test" finished-at="2020-02-18T16:22:33Z" duration-ms="92771">
       <class name="Tests.Homepagetest">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Tests.Homepagetest@1a84f40f]" started-at="2020-02-16T07:26:18Z" name="BeforeClass" finished-at="2020-02-16T07:26:35Z" duration-ms="16312" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Tests.Homepagetest@3cad68df]" started-at="2020-02-18T16:21:00Z" name="BeforeClass" finished-at="2020-02-18T16:21:30Z" duration-ms="30610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Tests.Homepagetest@1a84f40f]" started-at="2020-02-16T07:26:35Z" name="BeforeMethod" finished-at="2020-02-16T07:27:07Z" duration-ms="32376" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Tests.Homepagetest@3cad68df]" started-at="2020-02-18T16:21:31Z" name="BeforeMethod" finished-at="2020-02-18T16:22:29Z" duration-ms="58961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="CheckTitle()[pri:0, instance:Tests.Homepagetest@1a84f40f]" started-at="2020-02-16T07:27:07Z" name="CheckTitle" finished-at="2020-02-16T07:27:07Z" duration-ms="167" status="FAIL">
+        <test-method signature="CheckTitle()[pri:0, instance:Tests.Homepagetest@3cad68df]" started-at="2020-02-18T16:22:29Z" name="CheckTitle" finished-at="2020-02-18T16:22:30Z" duration-ms="301" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Book Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus] but found [Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India]]]>
@@ -60,11 +60,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTitle -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Tests.Homepagetest@1a84f40f]" started-at="2020-02-16T07:27:07Z" name="BeforeMethod" finished-at="2020-02-16T07:27:12Z" duration-ms="4627" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Tests.Homepagetest@3cad68df]" started-at="2020-02-18T16:22:30Z" name="BeforeMethod" finished-at="2020-02-18T16:22:32Z" duration-ms="2469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="GetCurrentUrl()[pri:0, instance:Tests.Homepagetest@1a84f40f]" started-at="2020-02-16T07:27:12Z" name="GetCurrentUrl" finished-at="2020-02-16T07:27:12Z" duration-ms="27" status="PASS">
+        <test-method signature="GetCurrentUrl()[pri:0, instance:Tests.Homepagetest@3cad68df]" started-at="2020-02-18T16:22:32Z" name="GetCurrentUrl" finished-at="2020-02-18T16:22:32Z" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetCurrentUrl -->
